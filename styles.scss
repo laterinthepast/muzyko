@@ -38,7 +38,10 @@ font-family: 'Reenie Beanie', cursive; */
     background: rgba(255, 255, 255, 0.7);
     width: 60%;
   }
- 
+}
+.onas {
+  gap: 20px !important;
+  flex-wrap: nowrap;
 }
 .pad-top-100 {
   padding-top: 100px;
@@ -47,7 +50,9 @@ font-family: 'Reenie Beanie', cursive; */
   padding-top: 200px;
 }
 .image-btw {
-  max-width: 50%;
+  img {
+    width: 50%;
+  }
 }
 
 .display-center {
@@ -75,23 +80,24 @@ font-family: 'Reenie Beanie', cursive; */
   color: #9b2226;
 }
 .box-shadow-1 {
-  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 1px,
+    rgba(255, 255, 255, 0.25) 0px 1px 1px inset;
 }
 .box-shadow-2 {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 .cp {
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
 }
 
 .ms {
-  font-family: 'Chivo Mono', monospace;
+  font-family: "Chivo Mono", monospace;
 }
 .text-justify {
   text-align: justify;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .landing {
     justify-content: flex-start;
   }
@@ -115,5 +121,14 @@ font-family: 'Reenie Beanie', cursive; */
   .footer {
     font-size: 15px !important;
   }
- 
+
+  .onas {
+    gap: 20px !important;
+    flex-wrap: wrap;
+  }
+  .image-btw {
+    img {
+      width: 77%;
+    }
+  }
 }

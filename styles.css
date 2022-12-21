@@ -35,6 +35,11 @@ font-family: 'Reenie Beanie', cursive; */
   width: 60%;
 }
 
+.onas {
+  gap: 20px !important;
+  flex-wrap: nowrap;
+}
+
 .pad-top-100 {
   padding-top: 100px;
 }
@@ -43,8 +48,8 @@ font-family: 'Reenie Beanie', cursive; */
   padding-top: 200px;
 }
 
-.image-btw {
-  max-width: 50%;
+.image-btw img {
+  width: 50%;
 }
 
 .display-center {
@@ -78,7 +83,7 @@ font-family: 'Reenie Beanie', cursive; */
 }
 
 .box-shadow-1 {
-  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 1px, rgba(255, 255, 255, 0.25) 0px 1px 1px inset;
 }
 
 .box-shadow-2 {
@@ -120,5 +125,12 @@ font-family: 'Reenie Beanie', cursive; */
   }
   .footer {
     font-size: 15px !important;
+  }
+  .onas {
+    gap: 20px !important;
+    flex-wrap: wrap;
+  }
+  .image-btw img {
+    width: 77%;
   }
 }
