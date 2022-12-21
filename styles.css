@@ -44,7 +44,7 @@ font-family: 'Reenie Beanie', cursive; */
 }
 
 .image-btw {
-  max-width: 40%;
+  max-width: 50%;
 }
 
 .display-center {
@@ -78,15 +78,11 @@ font-family: 'Reenie Beanie', cursive; */
 }
 
 .box-shadow-1 {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 }
 
 .box-shadow-2 {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.fs {
-  font-size: small;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
 .cp {
@@ -97,18 +93,30 @@ font-family: 'Reenie Beanie', cursive; */
   font-family: "Chivo Mono", monospace;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 @media (max-width: 768px) {
+  .landing {
+    justify-content: flex-start;
+  }
   .landing-msg {
+    padding-top: 50%;
     width: 90%;
   }
   .landing-msg h1 {
     font-weight: 900;
+    font-size: 55px;
   }
   .landing-msg h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .oferta {
     padding-top: 100px;
+  }
+  .ofer-m {
+    gap: 20px;
   }
   .footer {
     font-size: 15px !important;
