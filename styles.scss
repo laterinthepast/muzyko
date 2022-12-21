@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;600;700;900&family=Indie+Flower&family=Parisienne&family=Reenie+Beanie&display=swap");
+
+/* font-family: 'Chivo Mono', monospace;
+font-family: 'Indie Flower', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Reenie Beanie', cursive; */
+
+* {
+  max-width: 100%;
+}
+.navbar {
+  z-index: 999;
+  background: rgba(254, 254, 254, 0.536);
+
+  a {
+    color: black;
+  }
+
+  font-size: 26px;
+  .nav-item {
+    a:hover {
+      color: #001219;
+    }
+  }
+}
+
+.landing {
+  background-image: url("./Compressed/landing.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &-msg {
+    background: rgba(255, 255, 255, 0.7);
+    width: 60%;
+  }
+ 
+}
+.pad-top-100 {
+  padding-top: 100px;
+}
+.pad-top-200 {
+  padding-top: 200px;
+}
+.image-btw {
+  max-width: 40%;
+}
+
+.display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.violet {
+  color: #cdb4db;
+}
+.orange {
+  color: #ee9b00;
+}
+.blue {
+  color: #a2d2ff;
+}
+.pink {
+  color: #ffafcc;
+}
+.black {
+  color: #001219;
+}
+.red {
+  color: #9b2226;
+}
+.box-shadow-1 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.box-shadow-2 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.fs {
+  font-size: small;
+}
+.cp {
+  font-family: 'Parisienne', cursive;
+}
+
+.ms {
+  font-family: 'Chivo Mono', monospace;
+}
+
+@media (max-width: 768px){
+  .landing-msg {
+    width: 90%;
+    h1 {
+      font-weight: 900;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .oferta {
+    padding-top: 100px;
+  }
+  .footer {
+    font-size: 15px !important;
+  }
+}
