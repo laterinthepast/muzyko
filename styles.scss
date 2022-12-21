@@ -10,7 +10,7 @@ font-family: 'Reenie Beanie', cursive; */
 }
 .navbar {
   z-index: 999;
-  background: rgba(254, 254, 254, 0.536);
+  background: rgba(254, 254, 254, 0.95);
 
   a {
     color: black;
@@ -39,6 +39,7 @@ font-family: 'Reenie Beanie', cursive; */
     width: 60%;
   }
 }
+
 .onas {
   gap: 20px !important;
   flex-wrap: nowrap;
@@ -97,12 +98,13 @@ font-family: 'Reenie Beanie', cursive; */
   text-align: justify;
 }
 
+
 @media (max-width: 768px) {
   .landing {
     justify-content: flex-start;
   }
   .landing-msg {
-    padding-top: 50%;
+    padding-top: 20%;
     width: 90%;
     h1 {
       font-weight: 900;
@@ -130,5 +132,8 @@ font-family: 'Reenie Beanie', cursive; */
     img {
       width: 77%;
     }
+  }
+  .pm-t {
+    padding-top: 20px;
   }
 }
