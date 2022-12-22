@@ -1,21 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;600;700;900&family=Indie+Flower&family=Parisienne&family=Reenie+Beanie&display=swap");
 
-/* font-family: 'Chivo Mono', monospace;
-font-family: 'Indie Flower', cursive;
-font-family: 'Parisienne', cursive;
-font-family: 'Reenie Beanie', cursive; */
-
 * {
   max-width: 100%;
 }
 .navbar {
   z-index: 999;
   background: rgba(254, 254, 254, 0.95);
-
   a {
     color: black;
   }
-
   font-size: 26px;
   .nav-item {
     a:hover {
@@ -23,7 +16,6 @@ font-family: 'Reenie Beanie', cursive; */
     }
   }
 }
-
 .landing {
   background-image: url("./images/Compressed/landing3.jpg");
   background-size: cover;
@@ -39,7 +31,6 @@ font-family: 'Reenie Beanie', cursive; */
     width: 60%;
   }
 }
-
 .onas {
   gap: 20px !important;
   flex-wrap: nowrap;
@@ -55,13 +46,11 @@ font-family: 'Reenie Beanie', cursive; */
     width: 50%;
   }
 }
-
 .display-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .violet {
   color: #cdb4db;
 }
@@ -90,14 +79,12 @@ font-family: 'Reenie Beanie', cursive; */
 .cp {
   font-family: "Parisienne", cursive;
 }
-
 .ms {
   font-family: "Chivo Mono", monospace;
 }
 .text-justify {
   text-align: justify;
 }
-
 @media (max-width: 768px) {
   .landing {
     justify-content: flex-start;
@@ -122,7 +109,6 @@ font-family: 'Reenie Beanie', cursive; */
   .footer {
     font-size: 15px !important;
   }
-
   .onas {
     gap: 20px !important;
     flex-wrap: wrap;
